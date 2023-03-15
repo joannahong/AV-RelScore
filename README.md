@@ -15,11 +15,48 @@ pip install -r requirements.txt
 5. Download the landmarks of LRS2 and LRS3 from [this repository](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages).
 
 ## Audio-Visual corruption modeling
+- We utilize babble noise from [NOISEX-92](http://svr-www.eng.cam.ac.uk/comp.speech/Section1/Data/noisex.html) for the audio corruption modeling.
+- The occlusion patches for the visual corruption modeling are obtained from [here](https://github.com/kennyvoo/face-occlusion-generation).
+- Please create the separate audio (.wav) files from the LRS2 and LRS3 video dataset.
 
 ### Audio corruption modeling
+* LRS2
+
+```Shell
+python LRS2_audio_gen.py --split_file <SPLIT-FILENAME-PATH> \
+                         --LRS2_main_dir <DATA-DIRECTORY-PATH> \
+                         --LRS2_save_loc <OUTPUT-DIRECTORY-PATH> \
+                         --babble_noise <BABBLE-NOISE-LOCATION> \
+```
+
+* LRS3
+
+```Shell
+python LRS3_audio_gen.py --split_file <SPLIT-FILENAME-PATH> \
+                         --LRS3_test_dir <DATA-DIRECTORY-PATH> \
+                         --LRS3_save_loc <OUTPUT-DIRECTORY-PATH> \
+                         --babble_noise <BABBLE-NOISE-LOCATION> \
+```
 
 ### Visual corruption modeling
-
+* LRS2
+```Shell
+python LRS2_gen.py --split_file <SPLIT-FILENAME-PATH> \
+                   --LRS2_main_dir <DATA-DIRECTORY-PATH> \
+                   --LRS2_landmark_dir <LANDMARK-DIRECTORY-PATH> \
+                   --LRS2_save_loc <OUTPUT-DIRECTORY-PATH> \
+                   --occlusion <OCCLUSION-LOCATION> \
+                   --occlusion_mask <OCCLUSION-MASK-LOCATION> \
+```
+* LRS3
+```Shell
+python LRS3_gen.py --split_file <SPLIT-FILENAME-PATH> \
+                   --LRS3_test_dir <DATA-DIRECTORY-PATH> \
+                   --LRS3_landmark_dir <LANDMARK-DIRECTORY-PATH> \
+                   --LRS3_save_loc <OUTPUT-DIRECTORY-PATH> \
+                   --occlusion <OCCLUSION-LOCATION> \
+                   --occlusion_mask <OCCLUSION-MASK-LOCATION> \
+```
 ## Test datasets
 Note that the extracted corrupted data may be different from the actual corrupted test datasets that we have used for the experiment. Since we use *random* function when modeling the audio-visual corruption, so it may not work the same on all devices.
 
