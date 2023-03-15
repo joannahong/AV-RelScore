@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Audio-Visual corruption modeling
 - We utilize babble noise from [NOISEX-92](http://svr-www.eng.cam.ac.uk/comp.speech/Section1/Data/noisex.html) for the audio corruption modeling.
-- The occlusion patches for the visual corruption modeling are obtained from [here](https://github.com/kennyvoo/face-occlusion-generation).
+- The occlusion patches for the visual corruption modeling are available [here](https://drive.google.com/drive/folders/15nZETWlGMdcKY6aHbchRsWkUI42KTNs5). Download `coco_object.7z`, extract, and put `object_image_sr` and `object_mask_x4` in `occlusion_patch` folder
 - Please create the separate audio (.wav) files from the LRS2 and LRS3 video dataset.
 
 ### Audio corruption modeling
