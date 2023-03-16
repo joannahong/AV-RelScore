@@ -63,6 +63,8 @@ Note that the extracted corrupted data may be different from the actual corrupte
 
 Please request us (joanna2587@kaist.ac.kr) the actual test datasets for the fair comparisons.
 
+## Acknowledgement
+We refer to [Visual Speech Recognition for Multiple Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) for landmarks of the datasets and [Delving into High-Quality Synthetic Face Occlusion Segmentation Datasets](https://github.com/kennyvoo/face-occlusion-generation) for visual occlusion patches. We thank the authors for the amazing works.
 
 <!--
 ## Citation
