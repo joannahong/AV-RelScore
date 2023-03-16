@@ -68,7 +68,7 @@ We refer to [Visual Speech Recognition for Multiple Languages](https://github.co
 
 
 ## Citation
-If you find our AV-RelSocre useful in your research, please cite our [paper](https://arxiv.org/pdf/2303.08536.pdf).
+If you find our AV-RelSocre useful in your research, please cite our [paper](https://arxiv.org/abs/2303.08536).
 <!--
 ```BibTeX
 @article{shi2022avhubert,
