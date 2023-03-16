@@ -1,5 +1,5 @@
 # AV-RelScore
-This code is part of the paper: **Watch or Listen: Robust Audio-Visual Speech Recognition with Visual Corruption Modeling and Reliability Scoring** accepted at CVPR 2023.
+This code is part of the paper: [**Watch or Listen: Robust Audio-Visual Speech Recognition with Visual Corruption Modeling and Reliability Scoring**](https://arxiv.org/pdf/2303.08536.pdf) accepted at CVPR 2023.
 
 ## Overview
 This repository provides the audio-visual corruption modeling code for testing audio-visual speech recognition of LRS2 and LRS3 datasets.
@@ -66,9 +66,10 @@ Please request us (joanna2587@kaist.ac.kr) the actual test datasets for the fair
 ## Acknowledgement
 We refer to [Visual Speech Recognition for Multiple Languages](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages) for landmarks of the datasets and [Delving into High-Quality Synthetic Face Occlusion Segmentation Datasets](https://github.com/kennyvoo/face-occlusion-generation) for visual occlusion patches. We thank the authors for the amazing works.
 
-<!--
+
 ## Citation
-If you find our AV-RelSocre useful in your research, please cite below
+If you find our AV-RelSocre useful in your research, please cite our [paper](https://arxiv.org/pdf/2303.08536.pdf).
+<!--
 ```BibTeX
 @article{shi2022avhubert,
     author  = {Bowen Shi and Wei-Ning Hsu and Kushal Lakhotia and Abdelrahman Mohamed},
@@ -77,3 +78,4 @@ If you find our AV-RelSocre useful in your research, please cite below
     year = {2022}
 }
 -->
+
