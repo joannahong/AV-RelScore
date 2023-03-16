@@ -12,7 +12,7 @@ The video demo is available in [here](https://github.com/joannahong/AV-RelScore/
 ```
 pip install -r requirements.txt
 ```
-4. Download the [LRS2-BBC](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) and [LRS3-TED](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3.html) datasets.
+4. Download the [LRS2-BBC](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) and [LRS3-TED](https://mmai.io/datasets/lip_reading/) datasets.
 5. Download the landmarks of LRS2 and LRS3 from [this repository](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages).
 
 ## Audio-Visual corruption modeling
