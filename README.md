@@ -69,13 +69,11 @@ We refer to [Visual Speech Recognition for Multiple Languages](https://github.co
 
 ## Citation
 If you find our AV-RelSocre useful in your research, please cite our [paper](https://arxiv.org/abs/2303.08536).
-<!--
 ```BibTeX
-@article{shi2022avhubert,
-    author  = {Bowen Shi and Wei-Ning Hsu and Kushal Lakhotia and Abdelrahman Mohamed},
-    title = {Learning Audio-Visual Speech Representation by Masked Multimodal Cluster Prediction},
-    journal = {arXiv preprint arXiv:2201.02184}
-    year = {2022}
+@article{hong2023watch,
+  title={Watch or Listen: Robust Audio-Visual Speech Recognition with Visual Corruption Modeling and Reliability Scoring},
+  author={Hong, Joanna and Kim, Minsu and Choi, Jeongsoo and Ro, Yong Man},
+  journal={arXiv preprint arXiv:2303.08536},
+  year={2023}
 }
--->
 
