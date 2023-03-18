@@ -14,10 +14,11 @@ pip install -r requirements.txt
 ```
 4. Download the [LRS2-BBC](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) and [LRS3-TED](https://mmai.io/datasets/lip_reading/) datasets.
 5. Download the landmarks of LRS2 and LRS3 from [this repository](https://github.com/mpc001/Visual_Speech_Recognition_for_Multiple_Languages).
+6. Download `coco_object.7z` from [here](https://drive.google.com/drive/folders/15nZETWlGMdcKY6aHbchRsWkUI42KTNs5), extract, and put `object_image_sr` and `object_mask_x4` in `occlusion_patch` folder.
 
 ## Audio-Visual corruption modeling
 - We utilize babble noise from [NOISEX-92](http://svr-www.eng.cam.ac.uk/comp.speech/Section1/Data/noisex.html) for the audio corruption modeling.
-- The occlusion patches for the visual corruption modeling are available [here](https://drive.google.com/drive/folders/15nZETWlGMdcKY6aHbchRsWkUI42KTNs5). Download `coco_object.7z`, extract, and put `object_image_sr` and `object_mask_x4` in `occlusion_patch` folder.
+- The occlusion patches for the visual corruption modeling are provided from [this paper](https://arxiv.org/abs/2205.06218). 
 - Please create the separate audio (.wav) files from the LRS2 and LRS3 video dataset.
 
 ### Audio corruption modeling
