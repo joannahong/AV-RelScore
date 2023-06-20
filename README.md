@@ -3,7 +3,7 @@ This code is part of the paper: [**Watch or Listen: Robust Audio-Visual Speech R
 
 ## Overview
 This repository provides the audio-visual corruption modeling code for testing audio-visual speech recognition of LRS2 and LRS3 datasets.
-The video demo is available in [here](https://github.com/joannahong/AV-RelScore/tree/main/demo-video).
+The video demo is available in [here](https://github.com/joannahong/AV-RelScore/tree/main/demo_video).
 
 ## Prerequisite
 1. Python >= 3.6
